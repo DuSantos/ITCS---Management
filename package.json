@@ -1,0 +1,42 @@
+{
+  "name": "macasset-manager",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build",
+    "lint": "tsc --noEmit",
+    "preview": "vite preview",
+    "start": "tsx server.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.42.0",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "bcrypt": "^6.0.0",
+    "better-sqlite3": "^12.6.2",
+    "express": "^5.2.1",
+    "firebase": "^12.10.0",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^0.564.0",
+    "nodemailer": "^8.0.9",
+    "otplib": "^13.3.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "recharts": "^3.7.0",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/nodemailer": "^8.0.0",
+    "@types/qrcode": "^1.5.6"
+  }
+}
